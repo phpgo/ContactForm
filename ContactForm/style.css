@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+form {
+    width: 600px;
+    margin: 40px auto;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    width: 100px;
+    margin-bottom: 10px;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+input {
+    width: 200px;
+    padding: 2px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+img {
+    display: block;
+    margin-left: 100px;
+}
+
+#submit {
+    margin-left: 100px;
+	width: 50px;
+}
+
+.error {
+	color: red;
+}
+
+
