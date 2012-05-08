@@ -20,8 +20,6 @@ $white = imagecolorallocate($image, 255, 255, 255);
 imagefilledrectangle($image, 0, 0, 200, 200, $white);
 imagettftext($image, 30, 0, 10, 40, $color, $fontDir."LHANDW.TTF", $_SESSION['random_code']);
 
-// Image Final
-
 header("Content-type: image/png");
 imagepng($image);
 ?>
